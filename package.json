@@ -1,6 +1,6 @@
 {
     "name": "graphics-language-icons",
-    "displayName": "graphics-language-icons",
+    "displayName": "Graphics Language Icons",
     "description": "",
     "version": "0.0.1",
     "engines": {
@@ -9,13 +9,84 @@
     "categories": [
         "Themes"
     ],
+    "tags": [
+        "icons", "icon-theme"
+    ],
     "contributes": {
-        "themes": [
+        "languages": [
+			{
+				"id": "glsl",
+				"extensions": [
+					".glsl"
+				],
+                "icon": {
+                    "dark": "./images/glsl/khronos.svg",
+                    "light": "./images/glsl/khronos.svg"
+                }
+			},
             {
-                "label": "Graphics Language Icons",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Graphics Language Icons-color-theme.json"
-            }
+				"id": "glsl_vert",
+				"extensions": [
+					".vert",
+                    ".vs"
+				],
+                "icon": {
+                    "dark": "./images/glsl/khronos_vert.svg",
+                    "light": "./images/glsl/khronos_vert.svg"
+                }
+			},
+            {
+				"id": "glsl_frag",
+				"extensions": [
+					".frag",
+                    ".fs"
+				],
+                "icon": {
+                    "dark": "./images/glsl/khronos_frag.svg",
+                    "light": "./images/glsl/khronos_frag.svg"
+                }
+			},
+            {
+				"id": "glsl_comp",
+				"extensions": [
+					".comp"
+				],
+                "icon": {
+                    "dark": "./images/glsl/khronos_comp.svg",
+                    "light": "./images/glsl/khronos_comp.svg"
+                }
+			},
+            {
+				"id": "glsl_geom",
+				"extensions": [
+					".geom",
+                    ".gs"
+				],
+                "icon": {
+                    "dark": "./images/glsl/khronos_geom.svg",
+                    "light": "./images/glsl/khronos_geom.svg"
+                }
+			},
+            {
+				"id": "glsl_tesc",
+				"extensions": [
+					".tesc"
+				],
+                "icon": {
+                    "dark": "./images/glsl/khronos_tesc.svg",
+                    "light": "./images/glsl/khronos_tesc.svg"
+                }
+			},
+            {
+				"id": "glsl_tese",
+				"extensions": [
+					".tese"
+				],
+                "icon": {
+                    "dark": "./images/glsl/khronos_tese.svg",
+                    "light": "./images/glsl/khronos_tese.svg"
+                }
+			}
         ]
     }
 }
