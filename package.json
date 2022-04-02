@@ -1,8 +1,10 @@
 {
     "name": "graphics-language-icons",
     "displayName": "Graphics Language Icons",
-    "description": "",
+    "description": "Provides icons for various shading languages. Currently only supports glsl.",
+    "repository": "https://github.com/adenine-dev/graphics-language-icons",
     "version": "0.0.1",
+    "publisher": "adenine",
     "engines": {
         "vscode": "^1.66.0"
     },
